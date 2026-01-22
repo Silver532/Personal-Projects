@@ -1,0 +1,2 @@
+state = 2 if (input("Would you like to encrypt or decrypt a cipher?\n")).lower() in ("decrypt", "2") else 1
+exec(f"import Cipher{"Encrypting" if state == 1 else "Decrypting"}\nCipher{"Encrypting" if state == 1 else "Decrypting"}.main()")

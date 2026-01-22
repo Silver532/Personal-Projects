@@ -1,0 +1,1 @@
+exec("while True:\n\ttry:from random import randint as rand;gamelist = [{\"rock\":0,\"paper\":1,\"scissors\":2},{-1:\"You Lose\",0:\"Tie\",1:\"You Win\"},[[0,-1,1],[1,0,-1],[-1,1,0]]];playerchoice,computerchoice = gamelist[0][input(\"Input: \").lower()],rand(0,2);print(gamelist[1][gamelist[2][playerchoice][computerchoice]])\n\texcept: exit()")

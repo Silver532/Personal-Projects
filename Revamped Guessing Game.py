@@ -1,0 +1,2 @@
+from random import randint as rand; compnum, playernum = rand(0, 100), 101
+while playernum != compnum: playernum = int(input("Input Number from 0 to 100 inclusive: ")); print("Lower"*(playernum > compnum) + "Higher"*(playernum < compnum) or "You got it!")
